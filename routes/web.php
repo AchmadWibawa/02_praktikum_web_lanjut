@@ -21,6 +21,7 @@ Route::get('/about', function(){
     echo "2041720174, Achmad Wibawa, TI 2B";
 });
 
+
 Route::get('/articles/{id}', function($id = null ){
     return "Halaman artikel ke : " . $id;
 });
